@@ -1,6 +1,6 @@
 katz_deli = []
 
-i = 1
+$i = 1
 
 def line(katz_deli)
   if katz_deli.empty?
@@ -15,7 +15,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli)
-  katz_deli << i
+  katz_deli << $i
   puts "Welcome. You are number #{i} in line."
   i += 1
 end
