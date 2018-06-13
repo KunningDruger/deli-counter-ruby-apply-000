@@ -34,7 +34,7 @@ def now_serving(katz_deli)
 end
 
 i = take_a_number(katz_deli, i)
-take_a_number(katz_deli)
+i =take_a_number(katz_deli)
 take_a_number(katz_deli)
 line(katz_deli)
 now_serving(katz_deli)
