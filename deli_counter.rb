@@ -1,5 +1,7 @@
 katz_deli = []
 
+i = 1
+
 def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
@@ -12,9 +14,10 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, customer)
-  katz_deli << customer
-  puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
+def take_a_number(katz_deli)
+  katz_deli << i
+  puts "Welcome. You are number #{i} in line."
+  i += 1
 end
 
 def now_serving(katz_deli)
