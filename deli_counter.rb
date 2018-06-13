@@ -23,7 +23,7 @@ s
 take_a_number(katz_deli)
 take_a_number(katz_deli)
 take_a_number(katz_deli)
-line(katz_deli)s
+line(katz_deli)
 
 
 def now_serving(katz_deli)
