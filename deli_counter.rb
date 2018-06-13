@@ -19,7 +19,7 @@ def take_a_number(katz_deli)
   puts "Welcome. You are number #{i} in line."
   i += 1
 end
-s
+
 take_a_number(katz_deli)
 take_a_number(katz_deli)
 take_a_number(katz_deli)
