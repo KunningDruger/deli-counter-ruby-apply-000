@@ -20,7 +20,11 @@ def take_a_number(katz_deli)
   i += 1
 end
 
+take_a_number(katz_sdeli)
 take_a_number(katz_deli)
+take_a_number(katz_deli)
+line(katz_deli)
+
 
 def now_serving(katz_deli)
   if katz_deli.empty?
