@@ -28,7 +28,7 @@ now_serving(katz_deli)
 now_serving(katz_deli)
 now_serving(katz_deli)
 take_a_number(katz_deli)
-line(katz_delis)
+line(katz_deli)
 
 
 def now_serving(katz_deli)
