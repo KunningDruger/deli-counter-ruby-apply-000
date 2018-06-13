@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli)
   katz_deli << $i
-  puts "Welcome. You are number #{i} in line."
+  puts "Welcome. You are number #{$i} in line."
   i += 1
 end
 
