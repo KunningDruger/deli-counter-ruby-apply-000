@@ -20,15 +20,7 @@ def take_a_number(katz_deli)
   $i += 1
 end
 
-take_a_number(katz_deli)
-take_a_number(katz_deli)
-take_a_number(katz_deli)
-line(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-take_a_number(katz_deli)
-line(katz_deli)
+
 
 
 def now_serving(katz_deli)
@@ -38,3 +30,13 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli.shift}."
   end
 end
+
+take_a_number(katz_deli)
+take_a_number(katz_deli)
+take_a_number(katz_deli)
+line(katz_deli)
+now_serving(katz_deli)
+now_serving(katz_deli)
+now_serving(katz_deli)
+take_a_number(katz_deli)
+line(katz_deli)
