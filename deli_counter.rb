@@ -35,7 +35,7 @@ end
 
 i = take_a_number(katz_deli, i)
 i = take_a_number(katz_deli, i)
-i = take_a_number(katz_del, i)
+i = take_a_number(katz_deli, i)
 line(katz_deli)
 now_serving(katz_deli)
 now_serving(katz_deli)
